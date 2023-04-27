@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import "./About.scss";
+import BuyIcon from "../../assets/buy-icon.png";
+import SellIcon from "../../assets/sell-icon.png";
 
 const About = () => {
   return (
@@ -17,6 +19,17 @@ const About = () => {
               perferendis? Fuga vero aliquam saepe pariatur ratione qui est iure
               voluptatem sequi illum. Ipsum, eius reprehenderit.
             </p>
+
+            <div className="icon-div d-flex flex-column gap-3">
+              <div className="d-flex gap-3 align-items-center">
+                <img src={BuyIcon} alt="" />
+                <h4 className="text-capitalize">buy token</h4>
+              </div>
+              <div className="d-flex gap-3 align-items-center">
+                <img src={SellIcon} alt="" />
+                <h4 className="text-capitalize">sell token</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
