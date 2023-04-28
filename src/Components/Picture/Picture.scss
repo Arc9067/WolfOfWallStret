@@ -1,0 +1,12 @@
+.Picture {
+  width: 100%;
+  padding-block: 50px;
+
+  img {
+    max-width: 450px;
+
+    @media (max-width: 700px) {
+      max-width: 100%;
+    }
+  }
+}

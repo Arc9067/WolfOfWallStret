@@ -1,0 +1,32 @@
+footer {
+  padding-block: 50px;
+  width: 100%;
+
+  .logo {
+    max-width: 3rem;
+  }
+
+  .con {
+    @media (max-width: 700px) {
+      justify-content: center !important;
+    }
+  }
+
+  .nav-logo {
+    font-family: var(--Inter), sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 170%;
+    color: #000000;
+
+    @media (max-width: 700px) {
+      font-size: 20px;
+      line-height: 170%;
+    }
+  }
+
+  .footer-icon {
+    padding: none !important;
+  }
+}

@@ -1,6 +1,8 @@
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
+import Picture from "./Components/Picture/Picture";
+import Footer from "./Components/Footer/Footer";
 import "./App.scss";
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
 
       <section>
         <About />
+        <Picture />
       </section>
+      <Footer />
     </>
   );
 }
