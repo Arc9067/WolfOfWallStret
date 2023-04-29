@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="container d-flex flex-column gap-3">
         <h1 className="title">The Official Wolf Of Wall Street </h1>
         <p className="info">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus et
+          {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus et
           beatae autem quasi consequatur cumque labore nobis reiciendis qui
           minus, corporis quibusdam explicabo maxime tempore quis itaque aut
-          magnam assumenda.
+          magnam assumenda. */}
         </p>
         <a href="" className="button text-capitalize">
           buy now

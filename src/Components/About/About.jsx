@@ -15,9 +15,9 @@ const About = () => {
           <div className="col-lg-6 d-flex gap-3 flex-column">
             <h1 className="title text-capitalize">about us</h1>
             <p className="info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
               perferendis? Fuga vero aliquam saepe pariatur ratione qui est iure
-              voluptatem sequi illum. Ipsum, eius reprehenderit.
+              voluptatem sequi illum. Ipsum, eius reprehenderit. */}
             </p>
 
             <div className="icon-div d-flex flex-column gap-3">

@@ -26,6 +26,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
+        <p className="text-center para mt-5 text-uppercase">
+          Wolf of Wall Street &copy; ALL RIGHT RESERVED
+        </p>
       </div>
     </footer>
   );
